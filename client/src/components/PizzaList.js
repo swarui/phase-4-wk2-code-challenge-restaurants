@@ -24,7 +24,12 @@ const PizzaList = () => {
         <h1>Pizza Menu</h1>
       </div>
       {pizzas.map((pizza) => (
-        
+        <div className="pizza-card" key={pizza.id}>
+          <div className="card">
+            <h2>{pizza.name}</h2>
+            <h3>Ingredients</h3>
+            <p className='pizza-para'>{pizza.ingredients}</p>
+          </div>
         </div>
       ))}
     </div>
