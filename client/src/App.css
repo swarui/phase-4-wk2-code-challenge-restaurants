@@ -1,0 +1,42 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Restaurant List Styles */
+.restaurant-list {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.restaurant {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.restaurant:hover {
+  transform: scale(1.05);
+}
+
+.restaurant h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
