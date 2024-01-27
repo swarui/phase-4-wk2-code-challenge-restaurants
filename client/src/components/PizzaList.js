@@ -11,7 +11,6 @@ const PizzaList = () => {
         const data = await getPizzas();
         setPizzas(data);
       } catch (error) {
-        console.error('Error fetching pizzas:', error.message);
       }
     };
 
